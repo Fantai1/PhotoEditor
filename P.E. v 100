@@ -90,8 +90,8 @@ while looping:
     print('Color Change         [A]')
     print('image Enhance        [B]')
     print('Crop                 [C]')
-    print('Resize               [D]')
-    print('Rotate               [E]')
+    print('Rotate               [D]')
+    print('Resize               [E]')
     print(Style.RESET_ALL)  # resets the color code
     option = input()
 
@@ -102,9 +102,9 @@ while looping:
     if option == 'C':
         Crop()
     if option == 'D':
-        resize()
-    if option == 'E':
         rotate()
+    if option == 'E':
+        resize()
 
 # Any other features I should add or suggestions, LMK :D
 
